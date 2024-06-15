@@ -20,6 +20,7 @@ border-radius:20px;
     border: 5px solid black;
     display: grid;
     justify-content: center;
+    flex-shrink: 1;
     position:relative;
     grid-template-areas:"aboutme aboutme"
                          "image1 words"
@@ -41,6 +42,7 @@ border-radius:20px;
     background-color: black;
     color: bisque;
     font-size: x-large;
+    flex-shrink: 1;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -62,7 +64,10 @@ border-radius:20px;
     grid-area: image1;
     display:grid;
     position: relative;
+    max-width: 100%;
     justify-content: center;
+    flex-shrink: 1;
+
 }
 .image1:hover{
     transition: 6.0s ease-in-out;
@@ -84,7 +89,8 @@ border-radius:20px;
     font-size: xx-large;
     font-weight: 900;
     color:black;
-    border-radius: 20px 20px;   
+    border-radius: 20px 20px;
+    flex-shrink: 1;   
 }
 .words:hover{
 transition: 3.0s ease-in-out;
@@ -104,6 +110,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 font-weight: bold;
 font-size: larger;
 border-radius: 10px;
+flex-shrink: 1;
 margin: auto;
 text-align: center;
 }
@@ -119,6 +126,7 @@ text-align: center;
     width: 30px;
     height: 30px;
     color: aqua;
+    
     }
 
 .button1:hover{
