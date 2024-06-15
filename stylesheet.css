@@ -13,7 +13,7 @@
     justify-content: center; 
 border: 3px solid white;
 background-color: black;
-border-radius: -20px;
+border-radius:20px;
 }
 
 .container{
@@ -88,7 +88,7 @@ border-radius: -20px;
 .words:hover{
 transition: 3.0s ease-in-out;
 transform: perspective(370px) scale3d(.5,.5,.5) rotate(17deg);
-transform:skew(30deg);
+transform:skew(5deg);
 border:20px solid aqua;
 
 }
@@ -114,8 +114,8 @@ margin: auto;
     text-align:center;
     justify-items: center;
     font-size: x-large;
-    width: 130px;
-    height: 130px;
+    width: 30px;
+    height: 30px;
     color: aqua;
     }
 
@@ -135,11 +135,11 @@ animation: bounce 2s ease infinite;
 position: relative;
 grid-area: button1;
 display: grid;
-left: 100px;
+left: 10px;
 border: 10px solid black;
 background-color:black;
-font-size: x-large;
-width:100px;
+font-size:larger;
+width:30px;
 
 
 }
@@ -154,7 +154,7 @@ width:100px;
     
 }
  .texteffect{
-    font-size: xx-large;
+    font-size: large;
     font-weight: 900;
     position: relative;
     color: aqua;
@@ -177,7 +177,7 @@ border: 16px solid aqua;
 border-top:10px yellow;
 border-radius: 50%;
 width:100px;
-height:100px;
+height:75px;
 color: white;
 font-size: xx-large;
 animation: spin 2s linear infinite;
