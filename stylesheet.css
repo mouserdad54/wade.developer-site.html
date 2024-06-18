@@ -14,9 +14,14 @@
     position: relative;
     display:flex;
     justify-content: center; 
-border: 3px solid white;
-background-color: black;
+border: 3px solid black;
+background: linear-gradient(to right, red,orange,yellow, purple,violet,blue);
+padding: 3px;
 border-radius:20px;
+color: black;
+font-size: x-large;
+
+
 }
 
 .container{
