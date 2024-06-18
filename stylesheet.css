@@ -37,7 +37,8 @@ align-items: center;
     position:relative;
     grid-template-areas:"aboutme aboutme"
                          "image1 words"
-                         "lists button1";
+                         "lists button1"
+                         "pagebottom pagebottom";
                         grid-template-rows: auto auto;                        
                         grid-template-columns: auto auto;
  background-color: black;
@@ -215,4 +216,16 @@ animation: spin 2s linear infinite;
 @keyframes spin{
     0% { transform: rotate(5deg);}
     100% {transform: rotate(360deg);}
+}
+
+.pagebottom{
+    display:flex;
+    grid-area: pagebottom;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 5px solid black;
+    background: linear-gradient(to right, red,orange,yellow, purple,violet,blue);   
 }
