@@ -21,7 +21,9 @@ padding: 3px;
 border-radius:20px;
 color: black;
 font-size: large;
+font-family: 'Times New Roman', Times, serif;
 text-align: center;
+align-items: center;
 
 
 }
@@ -52,6 +54,7 @@ text-align: center;
     background-color: black;
     color: bisque;
     font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
     flex-shrink: 1;
     margin-left: 100px;
     margin-right: 100px;
