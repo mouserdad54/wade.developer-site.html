@@ -32,7 +32,7 @@ align-items: center;
 .container{
     border: 5px solid black;
     display: grid;
-    justify-content:center
+    justify-content:center;
     flex-shrink: 1;
     position:relative;
     grid-template-areas:"aboutme aboutme"
