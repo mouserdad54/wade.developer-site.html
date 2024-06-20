@@ -54,6 +54,7 @@ align-items: center;
     justify-content:center;
     border: 10px solid black;
     background-color: black;
+  
     color: bisque;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
@@ -218,7 +219,7 @@ animation: spin 2s linear infinite;
     100% {transform: rotate(360deg);}
 }
 
-.pagebottom{
+    .pagebottom{
     display:flex;
     grid-area: pagebottom;
     height: 300px;
@@ -229,3 +230,33 @@ animation: spin 2s linear infinite;
     border-radius: 20px;
     background: linear-gradient(to right, red,orange,yellow, purple,violet,aqua,blue);   
 }
+
+
+.moreinfo { 
+    border:3px solid black;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    color: bisque;
+    border-radius:20px 20px ;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+.contacts{
+    border:3px solid black;
+background-color: black;
+width: 100%;
+height: 300px;
+position: relative;
+display: flex;
+color: bisque;
+border-radius:20px 20px ;
+font-size: x-large;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+
+}
+
