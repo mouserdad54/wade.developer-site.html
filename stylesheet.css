@@ -277,6 +277,7 @@ animation: spin 2s linear infinite;
     width: 100%;
     height: 200px;
     position: relative;
+    justify-content: space-around;
     display: flex;
     color: bisque;
     border-radius:20px 20px ;
