@@ -74,7 +74,6 @@ align-items: center;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     flex-shrink: 1;
-
    
 }
 .aboutme:hover{
@@ -95,7 +94,7 @@ align-items: center;
     grid-area: image1;
     display:grid;
     position: relative;
-    justify-content: center;
+    justify-content:center;
     flex-shrink: 1;
 
 }
@@ -250,16 +249,41 @@ animation: spin 2s linear infinite;
     border:3px solid black;
     background-color: black;
     width: 100%;
-    height: 300px;
+    height:auto;
     position: relative;
-    display: flex;
+    margin:auto;
+
+    justify-content:center;
     color: bisque;
     border-radius:20px 20px ;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
- }
-.contacts{
+    text-align: center; }
+
+.opsystem{
+    border:3px solid black;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    justify-content:space-around;
+    display: flex;
+    border-radius:20px 20px ;
+    background: linear-gradient(to right, red,orange,yellow, purple,violet,aqua,blue);
+}
+
+.essancesite{
+    border:3px solid black;
+    background-color:black;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    color: bisque;
+    border-radius:20px 20px ;
+
+}
+
+    .contacts{
     border:3px solid black;
 background-color: black;
 width: 100%;
