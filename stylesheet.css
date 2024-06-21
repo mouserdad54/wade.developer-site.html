@@ -278,9 +278,6 @@ animation: spin 2s linear infinite;
     height: 200px;
     position: relative;
     justify-content: space-around;
-    color: bisque;
-    border-radius:20px 20px ;
-
 }
 
     .contacts{
