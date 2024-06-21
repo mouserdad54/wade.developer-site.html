@@ -74,8 +74,7 @@ align-items: center;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     flex-shrink: 1;
-    margin-left: 100px;
-    margin-right: 100px;
+
    
 }
 .aboutme:hover{
