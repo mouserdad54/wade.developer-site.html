@@ -278,7 +278,6 @@ animation: spin 2s linear infinite;
     height: 200px;
     position: relative;
     justify-content: space-around;
-    display: flex;
     color: bisque;
     border-radius:20px 20px ;
 
@@ -288,7 +287,7 @@ animation: spin 2s linear infinite;
     border:3px solid black;
 background-color: black;
 width: 100%;
-height: 200px;
+height: auto;
 position: relative;
 display: flex;
 color: bisque;
