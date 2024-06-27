@@ -244,6 +244,31 @@ animation: spin 2s linear infinite;
     background: linear-gradient(to right, red,orange,yellow, purple,violet,aqua,blue);   
 }
 
+.submitbox{border:5px solid black;
+    font-weight: 900;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-image:radial-gradient(yellow, orange,red,violet,blue);}
+    
+    .submittingbutton{font-weight: 900;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: x-large;
+        text-shadow:5px 15px rgb(black);
+        background-color: lightgray;
+    border-radius: 150px;}
+    .submittingbutton:hover{ transform: rotateX(360deg) scale(2.8);
+        transition-duration: 4.2s;
+        background-image:radial-gradient(yellow, orange,red,violet,blue);}
+        
+    #email{
+        border: 5px solid black;
+        background-color: lightgray;
+        font-size: large;
+        font-weight: 900;
+    }
 
 .moreinfo { 
     border:3px solid black;
