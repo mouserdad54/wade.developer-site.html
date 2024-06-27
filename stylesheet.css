@@ -246,16 +246,17 @@ animation: spin 2s linear infinite;
 
 .submitbox{border:5px solid black;
     font-weight: 900;
+    height: auto;
     border-radius: 150px;
     display: flex;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: large;
     background-image:radial-gradient(yellow, orange,red,violet,blue);}
     
     .submittingbutton{font-weight: 900;
         font-family: 'Times New Roman', Times, serif;
-        font-size: x-large;
+        font-size: large;
         text-shadow:5px 15px rgb(black);
         background-color: lightgray;
     border-radius: 150px;}
