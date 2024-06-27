@@ -255,6 +255,7 @@ animation: spin 2s linear infinite;
     background-image:radial-gradient(yellow, orange,red,violet,blue);}
     
     .submittingbutton{font-weight: 900;
+        display: flex;
         font-family: 'Times New Roman', Times, serif;
         font-size: large;
         text-shadow:5px 15px rgb(black);
@@ -266,6 +267,7 @@ animation: spin 2s linear infinite;
         
     #email{
         border: 5px solid black;
+        display:flex;
         background-color: lightgray;
         font-size: large;
         font-weight: 900;
