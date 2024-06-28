@@ -273,7 +273,7 @@ animation: spin 2s linear infinite;
         border: transparent;
     border-radius: 150px;}
     .submittingbutton:hover{ transform: rotateX(360deg) scale(1.9);
-        transition-duration: 4.2s;
+        transition-duration: 3.2s;
         background-image:radial-gradient(yellow, orange,red,violet,blue);}
         
     #email{
@@ -291,9 +291,9 @@ animation: spin 2s linear infinite;
     height:auto;
     position: relative;
     margin:auto;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 0 0 3px violet, 0 0 5px #0000FF, 0 0 10px white;
     justify-content:center;
-    color: bisque;
+    color:white;
     border-radius:20px 20px ;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
@@ -329,6 +329,7 @@ height: auto;
 position: relative;
 display: flex;
 color: bisque;
+text-shadow: 0 0 3px violet, 0 0 5px #0000FF, 0 0 10px white;
 border-radius:20px 20px ;
 font-size: x-large;
 font-family: 'Times New Roman', Times, serif;
