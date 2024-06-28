@@ -12,12 +12,13 @@
 .title{
 
     border:3px solid black;
-    background-color: black;
+    background-image: linear-gradient(to right, red,orange,yellow, purple,violet,blue);
     width: 100%;
     height: auto;
     position: relative;
     display: flex;
-    color: bisque;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     border-radius:20px 20px ;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
@@ -34,15 +35,18 @@ background: linear-gradient(to right, red,orange,yellow, purple,violet,blue);
 padding: 3px;
 border-radius:20px;
 color: black;
-font-size: large;
+font-size:x-large;
 font-family: 'Times New Roman', Times, serif;
 font-weight: 900;
 text-align: center;
 align-items: center;
-
-
 }
 
+.logpic{
+    border: transparent;
+    border-radius: 50px;
+    
+}
 .container{
     border: 5px solid black;
     display: grid;
@@ -247,30 +251,35 @@ animation: spin 2s linear infinite;
 .submitbox{border:5px solid black;
     font-weight: 900;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     font-size:x-large;
     text-align: center;
+    outline-width: 20px;
+    outline-style: double;
+    border-radius: 150px;
+    box-shadow: 10px 10px 10px green;
     background-image:radial-gradient(yellow, orange,red,violet,blue);}
     
     .submittingbutton{font-weight: 900;
         display: flex;
+      
         text-align: center;
         justify-content: center;
         font-family: 'Times New Roman', Times, serif;
         font-size: large;
         text-shadow:5px 15px rgb(black);
-        background-color: lightgray;
+        background-color: transparent;
+        border: transparent;
     border-radius: 150px;}
-    .submittingbutton:hover{ transform: rotateX(360deg) scale(2.8);
+    .submittingbutton:hover{ transform: rotateX(360deg) scale(1.9);
         transition-duration: 4.2s;
         background-image:radial-gradient(yellow, orange,red,violet,blue);}
         
     #email{
         border: 5px solid black;
         display:flex;
-        background-color: lightgray;
+        background-color:transparent;
         font-size: large;
         font-weight: 900;
     }
@@ -282,7 +291,7 @@ animation: spin 2s linear infinite;
     height:auto;
     position: relative;
     margin:auto;
-
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     justify-content:center;
     color: bisque;
     border-radius:20px 20px ;
@@ -292,6 +301,8 @@ animation: spin 2s linear infinite;
 
 .opsystem{
     border:3px solid black;
+    outline-width: 15px;
+    outline-style: double;
     width: 100%;
     height: 100px;
     position: relative;
