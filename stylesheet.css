@@ -25,6 +25,15 @@
     text-align: center;
 }
 
+.navbar  {
+    border-right: 1px solid #bbb;
+  }
+  
+  .navbar:last-child {
+    border-right: none;
+  }
+
+
 
 .wadetitle{
     position: relative;
